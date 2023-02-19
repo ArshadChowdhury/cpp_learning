@@ -1,0 +1,25 @@
+[{
+  "file": "C:\\Users\\Arshad\\Documents\\Hello World\\sizeOfOperator\\main.cpp",
+  "directory": "C:\\Users\\Arshad\\Documents\\Hello World\\sizeOfOperator",
+  "command": "clang++ -c \"C:\\Users\\Arshad\\Documents\\Hello World\\sizeOfOperator\\main.cpp\" -o \"C:\\Users\\Arshad\\Documents\\Hello World\\sizeOfOperator\\main.cpp\".o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\Arshad\\Documents\\Hello World\\PrimitiveTypes\\main.cpp",
+  "directory": "C:\\Users\\Arshad\\Documents\\Hello World\\PrimitiveTypes",
+  "command": "clang++ -c \"C:\\Users\\Arshad\\Documents\\Hello World\\PrimitiveTypes\\main.cpp\" -o \"C:\\Users\\Arshad\\Documents\\Hello World\\PrimitiveTypes\\main.cpp\".o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\Arshad\\Documents\\Hello World\\Project1\\main.cpp",
+  "directory": "C:\\Users\\Arshad\\Documents\\Hello World\\Project1",
+  "command": "clang++ -c \"C:\\Users\\Arshad\\Documents\\Hello World\\Project1\\main.cpp\" -o \"C:\\Users\\Arshad\\Documents\\Hello World\\Project1\\main.cpp\".o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\Arshad\\Documents\\Hello World\\HelloWorld\\main.cpp",
+  "directory": "C:\\Users\\Arshad\\Documents\\Hello World\\HelloWorld",
+  "command": "clang++ -c \"C:\\Users\\Arshad\\Documents\\Hello World\\HelloWorld\\main.cpp\" -o \"C:\\Users\\Arshad\\Documents\\Hello World\\HelloWorld\\main.cpp\".o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\Arshad\\Documents\\Hello World\\variableAndConstants\\main.cpp",
+  "directory": "C:\\Users\\Arshad\\Documents\\Hello World\\variableAndConstants",
+  "command": "clang++ -c \"C:\\Users\\Arshad\\Documents\\Hello World\\variableAndConstants\\main.cpp\" -o \"C:\\Users\\Arshad\\Documents\\Hello World\\variableAndConstants\\main.cpp\".o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\Arshad\\Documents\\Hello World\\Firstprogram\\main.cpp",
+  "directory": "C:\\Users\\Arshad\\Documents\\Hello World\\Firstprogram",
+  "command": "clang++ -c \"C:\\Users\\Arshad\\Documents\\Hello World\\Firstprogram\\main.cpp\" -o \"C:\\Users\\Arshad\\Documents\\Hello World\\Firstprogram\\main.cpp\".o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }]

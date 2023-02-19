@@ -1,0 +1,6 @@
+C:\Users\Arshad\Documents\Hello World\sizeOfOperator\main.cpp
+C:\Users\Arshad\Documents\Hello World\PrimitiveTypes\main.cpp
+C:\Users\Arshad\Documents\Hello World\Project1\main.cpp
+C:\Users\Arshad\Documents\Hello World\HelloWorld\main.cpp
+C:\Users\Arshad\Documents\Hello World\variableAndConstants\main.cpp
+C:\Users\Arshad\Documents\Hello World\Firstprogram\main.cpp

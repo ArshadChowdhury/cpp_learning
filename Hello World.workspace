@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Hello World" Database="" Version="10000">
+  <Project Name="HelloWorld" Path="HelloWorld/HelloWorld.project" Active="No"/>
+  <VirtualDirectory Name="Section4">
+    <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
+  </VirtualDirectory>
+  <Project Name="Firstprogram" Path="Firstprogram/Firstprogram.project" Active="No"/>
+  <Project Name="variableAndConstants" Path="variableAndConstants/variableAndConstants.project" Active="No"/>
+  <Project Name="PrimitiveTypes" Path="PrimitiveTypes/PrimitiveTypes.project" Active="No"/>
+  <Project Name="sizeOfOperator" Path="sizeOfOperator/sizeOfOperator.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="HelloWorld" ConfigName="Debug"/>
+      <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="Firstprogram" ConfigName="Debug"/>
+      <Project Name="variableAndConstants" ConfigName="Debug"/>
+      <Project Name="PrimitiveTypes" ConfigName="Debug"/>
+      <Project Name="sizeOfOperator" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="HelloWorld" ConfigName="Release"/>
+      <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="Firstprogram" ConfigName="Release"/>
+      <Project Name="variableAndConstants" ConfigName="Release"/>
+      <Project Name="PrimitiveTypes" ConfigName="Release"/>
+      <Project Name="sizeOfOperator" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
