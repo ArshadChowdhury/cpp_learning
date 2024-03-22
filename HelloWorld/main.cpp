@@ -119,6 +119,9 @@ int main()
         int n;
         cin >> n;
 
+        int maximumSum = 0;
+        int currentSum = 0;
+
         int arr[1000];
 
         for(int i=0; i<n; i++){
@@ -127,13 +130,19 @@ int main()
 
         for(int i=0; i<n; i++){
             for(int j=i; j<n; j++){
+                    currentSum = 0;
                 for(int k = i; k<=j; k++){
                     cout << arr[k] << ",";
+            currentSum += arr[k];
                 }
                 cout << endl;
+                if(currentSum > maximumSum) {
+                    maximumSum = currentSum;
+                }
             }
         }
 
+        cout << maximumSum << endl;
 
 
     return 0;
