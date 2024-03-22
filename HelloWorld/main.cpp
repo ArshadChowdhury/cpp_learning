@@ -89,8 +89,6 @@ int main()
                 cout << i <<endl;
             }
         }
-          */
-
 
           int n;
         cin >> n;
@@ -116,6 +114,27 @@ int main()
             cout << "The element "<< key << "is not present";
 
         }
+                  */
+
+        int n;
+        cin >> n;
+
+        int arr[1000];
+
+        for(int i=0; i<n; i++){
+            cin >> arr[i];
+        }
+
+        for(int i=0; i<n; i++){
+            for(int j=i; j<n; j++){
+                for(int k = i; k<=j; k++){
+                    cout << arr[k] << ",";
+                }
+                cout << endl;
+            }
+        }
+
+
 
     return 0;
 }
