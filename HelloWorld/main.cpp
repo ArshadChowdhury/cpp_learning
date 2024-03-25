@@ -114,7 +114,6 @@ int main()
             cout << "The element "<< key << "is not present";
 
         }
-                  */
 
         int n;
         cin >> n;
@@ -143,6 +142,43 @@ int main()
         }
 
         cout << maximumSum << endl;
+
+                          */
+
+    int n;
+    cin >> n;
+
+    int arr[1000];
+    int cumSum[1000] = {0};
+    int maximumSum = 0;
+    int currentSum = 0;
+
+    cin >> arr[0];
+    cumSum[0] = arr[0];
+
+
+
+    for(int i=0; i<n; i++)
+    {
+        cin >> arr[i];
+        cumSum[i] = cumSum[i - 1] + arr[i];
+    }
+
+    for(int i=0; i<n; i++)
+    {
+        for(int j=i; j<n; j++)
+        {
+            currentSum = 0;
+
+            currentSum = cumSum[j] - cumSum[i - 1];
+            if(currentSum > maximumSum)
+            {
+                maximumSum = currentSum;
+            }
+        }
+    }
+
+    cout << maximumSum << endl;
 
 
     return 0;
