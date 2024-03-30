@@ -140,42 +140,68 @@ int main()
         }
         cout << maximumSum << endl;
 
-                          */
+        int n;
+        cin >> n;
 
-    int n;
-    cin >> n;
+        int arr[1000];
+        int cumSum[1000] = {0};
+        int maximumSum = 0;
+        int currentSum = 0;
 
-    int arr[1000];
-    int cumSum[1000] = {0};
-    int maximumSum = 0;
-    int currentSum = 0;
-
-    cin >> arr[0];
-    cumSum[0] = arr[0];
+        cin >> arr[0];
+        cumSum[0] = arr[0];
 
 
 
-    for(int i=0; i<n; i++)
-    {
-        cin >> arr[i];
-        cumSum[i] = cumSum[i - 1] + arr[i];
-    }
-
-    for(int i=0; i<n; i++)
-    {
-        for(int j=i; j<n; j++)
+        for(int i=0; i<n; i++)
         {
-            currentSum = 0;
+            cin >> arr[i];
+            cumSum[i] = cumSum[i - 1] + arr[i];
+        }
 
-            currentSum = cumSum[j] - cumSum[i - 1];
-            if(currentSum > maximumSum)
+        for(int i=0; i<n; i++)
+        {
+            for(int j=i; j<n; j++)
             {
-                maximumSum = currentSum;
+                currentSum = 0;
+
+                currentSum = cumSum[j] - cumSum[i - 1];
+                if(currentSum > maximumSum)
+                {
+                    maximumSum = currentSum;
+                }
             }
         }
+
+        cout << maximumSum << endl;
+
+                          */
+
+    int nums[] = {1, 2, 3, 4, 5};
+
+    for(int i=0; i < 5; i++)
+    {
+
+        cout << "I " << nums[i] << endl;
+
+        for(int j = i+1; j<5; j++)
+        {
+
+            cout << "J " << nums[j] << endl;
+
+            for(int k = j; k<5; k++)
+            {
+
+                cout << "K " << nums[k] << endl;
+
+            }
+
+        }
+
+
     }
 
-    cout << maximumSum << endl;
+
 
 
     return 0;
