@@ -179,26 +179,20 @@ int main()
 
     int nums[] = {1, 2, 3, 4, 5};
 
-    for(int i=0; i < 5; i++)
-    {
+    for(int i=0; i < 5; i++){
 
         cout << "I " << nums[i] << endl;
 
-        for(int j = i+1; j<5; j++)
-        {
+        for(int j = i+1; j<5; j++){
 
             cout << "J " << nums[j] << endl;
 
-            for(int k = j; k<5; k++)
-            {
+            for(int k = j; k<5; k++){
 
                 cout << "K " << nums[k] << endl;
 
             }
-
         }
-
-
     }
 
 
